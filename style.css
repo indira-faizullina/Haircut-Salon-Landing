@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,800;1,200;1,400;1,600;1,800&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  min-width: 1320px;
+}
+
+.container {
+  width: 95%;
+  height: 90%;
+  background-image: url(images/image1.svg), url(images/background.svg);
+  background-repeat: no-repeat;
+  background-size: 50%, cover;
+  background-position: right bottom;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  color: #fff;
+  margin: auto;
+}
+
+.info {
+  padding: 70px 140px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 85px;
+}
+
+@media screen and (min-width: 1570px) {
+  header {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+.logo {
+  display: flex;
+}
+
+.logo-text {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 3px;
+  text-shadow: 1px 0 1px #bdbdbd, 0 1px 1px #bdbdbd, -1px 0 1px #bdbdbd,
+    0 -1px 1px #bdbdbd;
+}
+
+nav {
+  padding: 10px 100px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding-left: 50px;
+}
+
+nav a:hover {
+  color: #fbb034;
+}
+
+button.booking {
+  padding: 10px 50px;
+  background-color: #fbb034;
+  color: #000;
+  font-weight: 800;
+  cursor: pointer;
+  border: 1px solid #fbb034;
+}
+
+button.booking:hover {
+  background-color: #bb8227;
+  border: 1px solid #fff;
+}
+
+main {
+  width: 50%;
+  padding-top: 130px;
+}
+
+p.main_welcome {
+  font-size: 16px;
+  color: #fbb034;
+  margin: 0;
+}
+
+h1 {
+  font-size: 45px;
+  line-height: 50px;
+  margin: 20px auto;
+}
+
+p.main_info {
+  font-size: 28px;
+  line-height: 28px;
+  color: #9a9a9a;
+  margin: 20px auto 80px;
+}
+
+button.services {
+  padding: 10px 50px;
+  background-color: transparent;
+  color: #fff;
+  font-weight: 800;
+  cursor: pointer;
+  border: 1px solid #fff;
+  margin-left: 30px;
+}
+
+button.services:hover {
+  background-color: rgba(102, 102, 102, 0.658);
+}
+
+.container-2 {
+  width: 95%;
+  height: 80%;
+  background-image: url(images/background-2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  color: #000;
+  margin: auto;
+  display: flex;
+}
+
+.about_photo {
+  width: 40%;
+  margin: 100px auto;
+  background-image: url(images/about\ us_photo-3.svg),
+    url(images/about\ us_photo-2.svg), url(images/about\ us_photo-1.svg);
+  background-repeat: no-repeat;
+  background-size: 50% 60%, 46%, 46%;
+  background-position: right bottom, right top, left top;
+}
+
+.about_info {
+  width: 40%;
+  margin: 150px auto;
+}
+
+p.about-us {
+  color: #fbb034;
+  font-size: 18px;
+}
+
+h1.about-us {
+  font-size: 45px;
+  line-height: 50px;
+  margin: 20px auto;
+}
+
+p.about-us_text {
+  color: #565656;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
