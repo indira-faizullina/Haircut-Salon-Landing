@@ -124,9 +124,14 @@ button.services:hover {
   background-color: rgba(102, 102, 102, 0.658);
 }
 
+button.services a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .container-2 {
   width: 95%;
-  height: 80%;
+  height: 70%;
   background-image: url(images/background-2.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -226,7 +231,7 @@ p.about-us_text {
 
 .container-4 {
   width: 95%;
-  height: 100%;
+  height: max-content;
   background-image: url(images/background-2.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -247,13 +252,70 @@ p.about-us_text {
 
 .services_heading h1 {
   font-weight: normal;
+  margin-bottom: 40px;
 }
 
 .services_heading__buttons {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 40px;
 }
 
 .services_heading__buttons button {
-  padding: 10px;
+  padding: 15px;
+  width: 10%;
+  height: 9rem;
+  border: 1px solid #fbb034;
+  border-radius: 5px;
+  background-color: #dfdfdf;
+  color: #000;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.services_heading__buttons button:hover {
+  background-color: #cf902b;
+  color: #fff;
+}
+
+.services_items img {
+  width: 45%;
+  float: left;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.services_items__info h2 {
+  padding-top: 30px;
+}
+
+.services_items__info .price {
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.container-5 {
+  width: 95%;
+  height: 10%;
+  background-image: url(images/background.svg);
+  color: #fff;
+  margin: auto;
+  clear: left;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.icons a i.fa {
+  font-size: 25px;
+  padding: 15px 40px 15px 0;
+  color: #fff;
+}
+
+.icons a i.fa:hover {
+  color: #fbb034;
 }
